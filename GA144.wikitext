@@ -2,14 +2,13 @@
 {{Infobox CPU
 | name = GA144
 | image = GA144-node-array-and-pinout.png
-| caption = Node array and pinout.{{cite web |title=PB001: Isolated-Linear Processor product brief |url=https://cartheur.com |publisher=Cartheur Research |date=February 2026 |access-date=17 September 2026}}
-| designer = [[Charles H. Moore]]
-| manufacturer = [[GreenArrays]]
-| introduced = 2011
+| caption = Node array and pinout
+| designfirm = [[Charles H. Moore]]
+| manuf1 = [[GreenArrays]]
 | produced-start = 2011
 | arch = 18-bit [[stack machine]]
 | cores = 144
-| package = 88-pin [[Quad Flat No-leads package|QFN]]
+| pack1 = 88-pin [[Quad Flat No-leads package|QFN]]
 }}
 
 The '''GA144''' is an [[asynchronous circuit|asynchronous]], 144-core [[microprocessor]] designed by [[Charles H. Moore]] and marketed by GreenArrays.{{cite web |last=Windeck |first=Christof |title=Sparsamer Forth-Mikrocontroller mit 144 Kernen |trans-title=Frugal Forth microcontroller with 144 cores |language=de |website=Heise online |date=20 October 2010 |url=https://www.heise.de/news/Sparsamer-Forth-Mikrocontroller-mit-144-Kernen-1122006.html |access-date=17 September 2026}} It is a spatial processor: its 144 independent 18-bit, stack-based F18A computers are arranged in an 18-by-8 array and communicate with adjacent nodes rather than through a shared memory.{{cite thesis |last=Phothilimthana |first=Phitchaya Mangpo |title=Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures |type=Master's report |publisher=University of California, Berkeley |date=15 May 2015 |url=https://digicoll.lib.berkeley.edu/record/139996/files/EECS-2015-121.pdf |pages=3–4 |access-date=17 September 2026}} The device was sold as the GA144-1.2 / G144A12 and was announced for sale by GreenArrays in October 2011.{{cite web |title=News |url=https://www.greenarraychips.com/home/news/index.php |website=GreenArrays |date=4 October 2011 |access-date=17 September 2026}}
