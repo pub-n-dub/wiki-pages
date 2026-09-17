@@ -1,9 +1,8 @@
 {{Short description|American semiconductor company}}
 {{Infobox company
 | name = GreenArrays, Inc.
-| logo =
-| image = [[File:GA-multicomputer-chip-concept.jpg|thumb|Multicomputer Chip Architecture]]
-| image_caption = Conceptual illustration of the GA144 chip
+| logo = GreenArrays-logo.gif
+| logo_caption = GreenArrays logo
 | type = Private
 | industry = [[Semiconductor industry|Semiconductors]]
 | founded = {{Start date and age|2009|02|13}}
