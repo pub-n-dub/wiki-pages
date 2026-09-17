@@ -1,7 +1,7 @@
 {{Short description|American semiconductor company}}
 {{Infobox company
 | name = GreenArrays, Inc.
-| logo = GreenArrays-logo.gif
+| logo = Greenarrays-logo.gif
 | logo_caption = GreenArrays logo
 | type = Private
 | industry = [[Semiconductor industry|Semiconductors]]
