@@ -2,14 +2,14 @@
 {{Infobox company
 | name = GreenArrays, Inc.
 | logo =
-| image = GreenArrays-multicomputer-chip-concept.png
-| image_caption = Conceptual illustration of a multicomputer chip; not the company logo
+| image = [[File:GA-multicomputer-chip-concept.jpg|thumb|Multicomputer Chip Architecture]]
+| image_caption = Conceptual illustration of the GA144 chip
 | type = Private
 | industry = [[Semiconductor industry|Semiconductors]]
 | founded = {{Start date and age|2009|02|13}}
 | founder = [[Charles H. Moore]] and colleagues
 | products = Multicomputer integrated circuits; development tools
-| website = {{URL|https://www.greenarraychips.com}}
+| website = {{URL|https://greenarraychips.com}}
 }}
 
 '''GreenArrays, Inc.''' is an American semiconductor company founded in 2009 by computer engineer [[Charles H. Moore]] and colleagues.{{cite web |title=About the Company |url=https://www.greenarraychips.com/home/about/index.php |website=GreenArrays |access-date=17 September 2026}} It develops low-power, asynchronous multicomputer chips and associated software tools.{{cite web |title=About the Company |url=https://www.greenarraychips.com/home/about/index.php |website=GreenArrays |access-date=17 September 2026}} Its products use many small, independently operating stack computers on a single integrated circuit.{{cite web |last=McGrath |first=Dylan |title=144 Complete Computers on a Chip for $20 |website=EDN |date=12 October 2011 |url=https://www.edn.com/144-complete-computers-on-a-chip-for-20/ |access-date=17 September 2026}}
