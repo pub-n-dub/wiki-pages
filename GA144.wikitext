@@ -11,7 +11,7 @@
 | pack1 = 88-pin [[Quad Flat No-leads package|QFN]]
 }}
 
-The '''GA144''' is an [[asynchronous circuit|asynchronous]], 144-core [[microprocessor]] designed by [[Charles H. Moore]], developed and sold by [[GreenArrays]]. It is a spatial processor: its 144 independent 18-bit, stack-based F18A computers are arranged in an 18-by-8 array and communicate with adjacent nodes rather than through a shared memory.<ref>{{cite thesis |last=Phothilimthana |first=Phitchaya Mangpo |title=Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures |type=Master's report |publisher=University of California, Berkeley |date=15 May 2015 |url=https://digicoll.lib.berkeley.edu/record/139996/files/EECS-2015-121.pdf |pages=3–4 |access-date=17 September 2026}}</ref> The device was sold as the GA144-1.2 / G144A12 and was announced for sale by GreenArrays in October 2011.<ref>{{cite web |title=News |url=https://www.greenarraychips.com/home/news/index.php |website=GreenArrays |date=4 October 2011 |access-date=17 September 2026}}</ref>
+The '''GA144''' is an [[asynchronous circuit|asynchronous]], 144-core [[microprocessor]] designed by [[Charles H. Moore]], developed and sold by [[GreenArrays]]. It is a spatial processor: its 144 independent 18-bit, stack-based F18A computers are arranged in an 18-by-8 array and communicate with adjacent nodes rather than through a shared memory. The device was sold as the GA144-1.2 / G144A12 and was announced for sale by GreenArrays in October 2011.<ref>{{cite web |title=News |url=https://www.greenarraychips.com/home/news/index.php |website=GreenArrays |date=4 October 2011 |access-date=17 September 2026}}</ref>
 
 ==Architecture==
 
@@ -25,7 +25,11 @@ Twenty-two edge nodes have one or more external pins. The interfaces include gen
 
 ==Performance and power==
 
-GreenArrays specified a peak aggregate rate of 96 billion operations per second and a power range of 14 microwatts to 650 milliwatts, dependent on activity. Because the device is asynchronous, its timing and energy use vary with node activity, supply voltage, temperature, and the instruction mix.<ref>{{cite web |title=G144A12 Chip Reference Data Book |url=https://www.greenarraychips.com/home/documents/greg/DB002-110705-G144A12.pdf |publisher=GreenArrays |date=5 July 2011 |access-date=17 September 2026}}</ref> A Berkeley evaluation characterized the GA144 as an extremely minimalist low-power spatial architecture, while noting that its programming model imposes substantial layout and partitioning work.
+GreenArrays specified a peak aggregate rate of 96 billion operations per second and a power range of 14 microwatts to 650 milliwatts, dependent on activity. Because the device is asynchronous, its timing and energy use vary with node activity, supply voltage, temperature, and the instruction mix.<ref>{{cite web |title=G144A12 Chip Reference Data Book |url=https://www.greenarraychips.com/home/documents/greg/DB002-110705-G144A12.pdf |publisher=GreenArrays |date=5 July 2011 |access-date=17 September 2026}}</ref>
+
+==Research use==
+
+At the University of California, Berkeley, Phitchaya Phothilimthana developed ''Chlorophyll'', a synthesis-aided programming model and compiler for the GA144.<ref>{{cite thesis |last=Phothilimthana |first=Phitchaya Mangpo |title=Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures |type=Master's report |publisher=University of California, Berkeley |date=15 May 2015 |url=https://www2.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-121.html |pages=2–4 |access-date=17 September 2026}}</ref> Researchers at Ruhr University Bochum implemented AES and RSA on the GA144 and evaluated the AES implementation's resistance to power-analysis attacks.<ref>{{cite journal |last1=Schneider |first1=Tobias |last2=von Maurich |first2=Ingo |last3=Güneysu |first3=Tim |last4=Oswald |first4=David |title=Cryptographic Algorithms on the GA144 Asynchronous Multi-Core Processor: Implementation and Side-Channel Analysis |journal=Journal of Signal Processing Systems |volume=77 |issue=1–2 |pages=151–167 |date=October 2014 |doi=10.1007/s11265-014-0872-5 |url=https://research.birmingham.ac.uk/en/publications/cryptographic-algorithms-on-the-ga144-asynchronous-multi-core-pro |access-date=17 September 2026}}</ref>
 
 ==See also==
 
