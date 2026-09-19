@@ -1,0 +1,44 @@
+{{Short description|Proprietary integrated-circuit design package by GreenArrays}}
+{{Infobox software
+| name = GLOW
+| developer = [[GreenArrays]]
+| author = [[Charles H. Moore]] and GreenArrays
+| programming language = [[Forth (programming language)|Forth]]
+| operating system = [[Microsoft Windows|Win32]]
+| genre = [[Electronic design automation|Integrated-circuit design]]
+| license = Proprietary
+}}
+
+'''GLOW''' is a proprietary [[electronic design automation]] package for [[integrated circuit]] design developed by [[GreenArrays]]. It is hosted on the company's Win32 ''arrayForth 3'' environment. GreenArrays documents describe GLOW as an integrated-circuit design package and state that its design-tool source is omitted from publicly released ''arrayForth 3'' systems.<ref name="aF3manual">{{cite web |title=arrayForth 3 User's Manual |publisher=GreenArrays |date=12 November 2022 |url=https://greenarrays.com/home/documents/greg/DB013-221112-aFUSER.pdf |pages=15, 68, 83, 85 |access-date=19 September 2026}}</ref><ref name="saneForth">{{cite web |title=saneFORTH/Win32 Product Reference |publisher=ATHENA Programming |date=25 May 2019 |url=https://www.greenarraychips.com/home/documents/greg/SFW32PR-190525.pdf |access-date=19 September 2026}}</ref>
+
+GLOW belongs to a line of VLSI design tools created by computer engineer [[Charles H. Moore]], the inventor of [[Forth (programming language)|Forth]]. Its predecessor, OKAD ("Oh CAD"), was a layout-and-simulation environment used by Moore for custom Forth processors; its later colorForth implementation described chip geometry directly and could produce GDSII layout files for fabrication.<ref name="OKAD">{{cite web |last=Fox |first=Jeff |title=OKAD (Oh CAD) |website=UltraTechnology |date=30 November 2000 |url=https://www.ultratechnology.com/okad.htm |access-date=19 September 2026}}</ref><ref name="VLSItools">{{cite web |last=Moore |first=Chuck |title=VLSI Design Tools |website=colorForth |date=25 May 2009 |url=https://colorforth.github.io/vlsi.html |access-date=19 September 2026}}</ref>
+
+==History==
+
+Moore developed the earlier tools after working with schematic-based and automatic placement-and-routing systems on the Novix and Sh-Boom processor projects. In a 1992 interview, he described a graphical, four-plane layout representation made of reusable elements and a simulator that operated directly on that layout.<ref>{{cite magazine |last=Williams |first=J. W. |title=Sculpting on Silicon: An Interview with Chuck Moore |magazine=Dr. Dobb's Journal |date=June 1992 |url=https://jacobfilipp.com/DrDobbs/articles/DDJ/1992/9206/9206d/9206d.htm |access-date=19 September 2026}}</ref>
+
+The resulting environment was named OKAD. According to an account by Jeff Fox, the first version ran as the sole application in Moore's minimal ''OK'' operating system and was initially built without source code. It used graphical layer views rather than schematic capture or a high-level design representation; later versions added a layout editor, simulation, design-rule checking and file-conversion programs.<ref name="OKAD" /> Moore later incorporated colorForth as a scripting language within OKAD and re-engineered the package in colorForth.<ref name="OKAD" />
+
+By 2009, Moore described the colorForth VLSI tools as derived from OKAD, which he said had generated several versions of Forth microprocessor chips.<ref name="VLSItools" /> GreenArrays, founded by Moore and colleagues in 2009, subsequently integrated the tool family with its ''arrayForth 3'' software environment as GLOW.<ref>{{cite web |title=PB008: GreenArrays introduction |publisher=GreenArrays |date=7 June 2010 |url=https://www.greenarraychips.com/home/documents/greg/PB008-100607-GA-Intro.pdf |access-date=19 September 2026}}</ref><ref name="saneForth" /> A 2018 revision history records the integration of ''arrayForth 3'' with GLOW on a shared software base.<ref name="aF3manual" />
+
+==Design approach==
+
+The tool family uses a geometric description of a chip rather than a conventional schematic as its primary representation. In Moore's 2009 description, gates, cells, pads and floorplans are placed and interconnected on a coarse tile grid. A tile represents one of six layers and can encode a trace, contact or transistor; the tile dimensions enforce the rules of a selected fabrication process.<ref name="VLSItools" />
+
+The colorForth tools compile the description into a flat layout, display it in two or three dimensions, perform design-rule checking, and extract transistor and interconnect-net lists for simulation. The same representation can generate a GDSII file.<ref name="VLSItools" /> The simulator models transistor current, charge, capacitance and temperature in time steps described by Moore as one picosecond.<ref name="VLSItools" />
+
+==Distribution==
+
+GLOW has not been distributed as a public component of ''arrayForth 3''. GreenArrays' manual identifies a Win32 executable with 1.6 GB of system memory for the GLOW tools, compared with 16 MB for the standard ''arrayForth 3'' executable, and says the GLOW tools are redacted from public releases.<ref name="aF3manual" /> The manual's storage map reserves source areas for GLOW and identifies 180 nm and 28 nm high-performance-process variants.<ref name="aF3manual" />
+
+==See also==
+
+* [[ColorForth]]
+* [[Forth (programming language)]]
+* [[Integrated circuit design]]
+
+==References==
+{{Reflist}}
+
+[[Category:Electronic design automation software]]
+[[Category:Proprietary software]]
